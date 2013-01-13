@@ -2,10 +2,11 @@
 
 **Get up and running in less than 5 minutes**
 
-Tis program demonstrates using Hadoop's Map-Reduce concept in Java. The input is a raw data file listing earthquakes by region, magnitude and other information. The goal is to find the maximum magnitude of earthquake for a given region.
+This program demonstrates Hadoop's Map-Reduce concept in Java using a very simple example. The input is a raw data file listing earthquakes by region, magnitude and other information. The goal is to find the maximum magnitude of earthquake for a given region.
 
 ### Instructions for Setting Up Hadoop
 1. Download Hadoop 1.1.1 binary [Mirror](http://mirror.csclub.uwaterloo.ca/apache/hadoop/common/hadoop-1.1.1/hadoop-1.1.1.tar.gz)
+
 2. Extract it to a folder on your computer:
         
         $ tar xvfz hadoop-1.1.1.tar.gz
@@ -19,6 +20,7 @@ Tis program demonstrates using Hadoop's Map-Reduce concept in Java. The input is
 
         $ export PATH=$PATH:$HADOOP_INSTALL/bin
 
+> Or you can add these variables to your standard shell script. For example, checkout my Mac OSX's [`~/.bash_profile`](https://gist.github.com/4525814)
 
 ### Instructions for Running the Sample
 1. Clone the project:
