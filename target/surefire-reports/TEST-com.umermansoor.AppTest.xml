@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.009" errors="0" skipped="0" tests="1" name="com.umermansoor.AppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.12-b01-434"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M3909"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/umermansoor/Documents/java-code/hadoopex"/>
+    <property name="java.runtime.version" value="1.6.0_37-b06-434-11M3909"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/umermansoor/Documents/java-code/hadoopex"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/umermansoor/Documents/java-code/hadoopex/target/surefire/surefirebooter1935000446850489107.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/3c/b184xmzn0qj59r02jhc3xlp40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/umermansoor/Documents/java-code/hadoopex/target/test-classes:/Users/umermansoor/Documents/java-code/hadoopex/target/classes:/Users/umermansoor/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/umermansoor/.m2/repository/org/apache/hadoop/hadoop-core/1.1.1/hadoop-core-1.1.1.jar:/Users/umermansoor/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/umermansoor/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/umermansoor/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/Users/umermansoor/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/Users/umermansoor/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/Users/umermansoor/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/umermansoor/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/Users/umermansoor/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/umermansoor/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/umermansoor/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/umermansoor/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/umermansoor/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/umermansoor/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/umermansoor/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/umermansoor/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/Users/umermansoor/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/Users/umermansoor/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/Users/umermansoor/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/Users/umermansoor/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar:/Users/umermansoor/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/Users/umermansoor/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/umermansoor/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/Users/umermansoor/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/Users/umermansoor/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/umermansoor"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="umermansoor"/>
+    <property name="java.class.path" value="/Users/umermansoor/Documents/java-code/hadoopex/target/test-classes:/Users/umermansoor/Documents/java-code/hadoopex/target/classes:/Users/umermansoor/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/umermansoor/.m2/repository/org/apache/hadoop/hadoop-core/1.1.1/hadoop-core-1.1.1.jar:/Users/umermansoor/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/umermansoor/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/umermansoor/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/Users/umermansoor/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/Users/umermansoor/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/Users/umermansoor/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/umermansoor/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/Users/umermansoor/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/umermansoor/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/umermansoor/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/umermansoor/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/umermansoor/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/umermansoor/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/umermansoor/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/umermansoor/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/Users/umermansoor/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/Users/umermansoor/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/Users/umermansoor/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/Users/umermansoor/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/Users/umermansoor/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar:/Users/umermansoor/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/Users/umermansoor/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/umermansoor/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/Users/umermansoor/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/Users/umermansoor/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/umermansoor/Documents/java-code/hadoopex/target/surefire/surefirebooter1935000446850489107.jar /Users/umermansoor/Documents/java-code/hadoopex/target/surefire/surefire5961835224587246899tmp /Users/umermansoor/Documents/java-code/hadoopex/target/surefire/surefire5136322465947842991tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_37"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/umermansoor/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_37-434"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="com.umermansoor.AppTest" name="testApp"/>
+</testsuite>
