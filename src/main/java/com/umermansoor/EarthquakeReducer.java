@@ -1,10 +1,11 @@
 package com.umermansoor;
 
-import java.io.IOException;
-
 import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
+import java.io.IOException;
+import org.apache.hadoop.io.Text;
+
+
 
 public class EarthquakeReducer extends 
         Reducer<Text, DoubleWritable, Text, DoubleWritable> 
@@ -12,10 +13,10 @@ public class EarthquakeReducer extends
 
     /**
      * The `Reducer` function. Iterates through all earthquake magnitudes for a
-     * region to find the maximum value. The output is the region name and the 
-     * maximum value of the magnitude.
-     * @param key - The name of the region
-     * @param values - Iterator over earthquake magnitudes in the region
+     * region to find the maximum value. The output key is the `region name` and  
+     * the value is the `maximum magnitude` for that region.
+     * @param key - Input key - Name of the region
+     * @param values - Input Value - Iterator over quake magnitudes for region
      * @param context - Used for collecting output
      * @throws IOException
      * @throws InterruptedException 

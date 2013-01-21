@@ -16,6 +16,7 @@ The raw data files are in the `input/` folder.
 ### Instructions for Setting Up Hadoop
 1. Download Hadoop 1.1.1 binary. [Mirror](http://mirror.csclub.uwaterloo.ca/apache/hadoop/common/hadoop-1.1.1/hadoop-1.1.1.tar.gz)
 
+
 2. Extract it to a folder on your computer:
         
         $ tar xvfz hadoop-1.1.1.tar.gz

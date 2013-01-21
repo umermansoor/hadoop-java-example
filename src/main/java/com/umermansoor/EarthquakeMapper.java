@@ -19,9 +19,10 @@ public class EarthquakeMapper extends
     /**
      * The `Mapper` function. It receives a line of input from the file, 
      * extracts `region name` and `earthquake magnitude` from it, which becomes
-     * the output.
-     * @param key - The line offset in the file - ignored.
-     * @param value - This is the line itself.
+     * the output. The output key is `region name` and the output value is 
+     * `magnitude`.
+     * @param key - Input key - The line offset in the file - ignored.
+     * @param value - Input Value - This is the line itself.
      * @param context - Provides access to the OutputCollector and Reporter.
      * @throws IOException
      * @throws InterruptedException 

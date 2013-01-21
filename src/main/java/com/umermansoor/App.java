@@ -8,13 +8,13 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 /**
- * Hello world!
- *
+ * The main application class. 
+ * @author Umer Mansoor
  */
 public class App 
 {
     /**
-     * 
+     * Application entry point.
      * @param args
      * @throws Exception - Bad idea but produces less cluttered code.
      */
