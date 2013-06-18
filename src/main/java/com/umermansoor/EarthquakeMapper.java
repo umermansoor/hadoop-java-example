@@ -10,6 +10,7 @@ import java.io.IOException;
 
 /**
  * This is the main Mapper class. 
+ * 
  * @author umermansoor
  */
 public class EarthquakeMapper extends 

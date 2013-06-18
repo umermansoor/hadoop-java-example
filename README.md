@@ -1,4 +1,4 @@
-## Hadoop Example in Java
+## Hadoop Map-Reduce Example in Java
 
 **Get up and running in less than 5 minutes**
 
@@ -64,8 +64,8 @@ The raw data files are in the `input/` folder.
 
 ### Common Errors:
 1. Exception: java.lang.NoClassDefFoundError
-Cause: You didn't setup the HADOOP_CLASSPATH environment variable.
-Resolution: Setup the variable:
+Cause: You didn't setup the HADOOP_CLASSPATH environment variable. You need to tell Hadoop where to find the java classes. 
+Resolution: In this case, execute the following to setup HADOOP_CLASSPATH variable to point to the `target/classes/` folder.
 
         $ export HADOOP_CLASSPATH=target/classes/
 
